@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: springboot-minio
+server:
+    port: 8000
+
+minio:
+    url: http://192.168.145.131:9000
+    accessKey: admin
+    secretKey: admin123456
+    bucketName: test
